@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+}
+
+/* Header */
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd43b;
+}
+
+/* Container */
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    background: white;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+
+h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    background: #34495e;
+    color: white;
+    padding: 12px;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+    background: #f5f5f5;
+}
+
+/* Form */
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #219150;
+}
+
+/* Buttons */
+
+.edit-btn {
+    background: #3498db;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.edit-btn:hover {
+    background: #2980b9;
+}
+
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.delete-btn:hover {
+    background: #c0392b;
+}
+
+/* Flash Message */
+
+.message {
+    background: #d4edda;
+    color: #155724;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #c3e6cb;
+}
+
+/* Responsive */
+
+@media (max-width:768px) {
+
+table,
+thead,
+tbody,
+th,
+td,
+tr{
+display:block;
+}
+
+table tr{
+margin-bottom:20px;
+}
+
+table td{
+padding-left:50%;
+position:relative;
+}
+
+table td::before{
+position:absolute;
+left:10px;
+font-weight:bold;
+}
+
+}
+
