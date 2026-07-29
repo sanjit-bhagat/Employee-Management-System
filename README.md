@@ -140,9 +140,10 @@ http://YOUR_PUBLIC_IP:5000
 
 ---
 
-## Edit Employee
+## Delete Confirmation
 
-![Edit Employee](screenshots/edit-employee.png)
+![Delete Employee](screenshots/delete-confirmation.png
+)
 
 ---
 
