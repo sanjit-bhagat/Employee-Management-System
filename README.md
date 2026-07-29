@@ -120,44 +120,35 @@ http://YOUR_PUBLIC_IP:5000
 ---
 
 ## Screenshots
+# Screenshots
 
-Home Page
+## Home Page
 
-home-page.png
-
-Add Employee Form
-
-add-employee.png
-
-Employee List
-
-employee-list.png
-
-Edit Employee
-
-edit-employee.png
-
-Delete Confirmation
-
-delete-confirmation.png
-
-SQLite Database
-
-database.png
-
-Flask Running in Terminal
-
-terminal-running.png
-
-AWS EC2 Instance
-
-ec2-instance.png
-
-Application Running on EC2
-
-application-browser.png
+![Home Page](screenshots/home-page.png)
 
 ---
+
+## Add Employee
+
+![Add Employee](screenshots/add-employee.png)
+
+---
+
+## Employee List
+
+![Employee List](screenshots/employee-list.png)
+
+---
+
+## Edit Employee
+
+![Edit Employee](screenshots/edit-employee.png)
+
+---
+
+## Application Running on AWS EC2
+
+![Application](screenshots/application-browser.png)
 
 ## Future Improvements
 
@@ -176,8 +167,6 @@ application-browser.png
 
 **Sanjit Bhagat**
 
-
-LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN_USERNAME
 
 ---
 
